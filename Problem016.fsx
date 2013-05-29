@@ -13,5 +13,9 @@ let rec digits(n:bigint, b:bigint) =
         
 let x = bigint.Pow(bigint 2, 1000)
 
-digits(x, bigint 10)
-|> List.sum
+let answer =
+    digits(x, bigint 10)
+    |> List.sum
+
+// golfed
+(bigint 2 ** 1000).ToString() |> Seq.sumBy (fun c -> int(c))
