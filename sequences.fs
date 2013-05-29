@@ -28,3 +28,5 @@ let Primes =
 let TriangleNumbers =
     Naturals
     |> Seq.map (fun n -> [1..n] |> List.sum)
+
+let Fibonacci = Seq.unfold (fun (x,y) -> Some(x, (y, x+y))) (1,2)
