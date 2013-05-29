@@ -9,7 +9,6 @@
 let solve(a:int[,]) =
     let width = a.GetLength(1)
     let height = a.GetLength(0)
-    let getVal(x, y) = if x >= width || y >= height then None else Some(a.[y,x])
     let score(x, y) =
         match (x,y) with
         | (x,y) when x < width-1 && y < height-1 -> a.[y,x] + min a.[y+1,x] a.[y,x+1]
