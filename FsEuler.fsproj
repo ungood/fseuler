@@ -41,6 +41,9 @@
     <None Include="Optimal.fsx" />
     <Compile Include="primality.fs" />
     <Compile Include="sequences.fs" />
+    <None Include="Problem081.fsx" />
+    <Compile Include="Problem081_Data.fs" />
+    <None Include="Problem027.fsx" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />
