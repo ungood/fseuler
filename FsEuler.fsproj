@@ -44,6 +44,8 @@
     <None Include="Problem081.fsx" />
     <Compile Include="Problem081_Data.fs" />
     <None Include="Problem027.fsx" />
+    <None Include="Problem089.fsx" />
+    <None Include="Problem144.fsx" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="mscorlib" />

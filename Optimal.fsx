@@ -11,7 +11,8 @@ let solved = set [ 1;  2;  3;  4;  5;  6;  7;  8;  9; 10;
                   21;                     27;
                                           67;
                                                   79;
-                  81]
+                  81;
+                             144;]
 
 // limit a sequence to only those in the problem set
 let limit sequence = sequence |> Seq.takeWhile (fun x -> x <= N)
